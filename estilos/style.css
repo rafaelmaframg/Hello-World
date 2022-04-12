@@ -3,25 +3,29 @@
     font-size: 16px;
 }
 
-h2{text-align: center;
-margin-top: 30px;}
+h2{
+    text-align: center;
+margin-top: 50px;
+}
 
 header{
-    font-size: 25px;
+    font-size: 36px;
     text-align: center;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.195);
+    text-transform: uppercase;
+   
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.316);
 }
 
 body{
-    background-color: rgb(239, 75, 97);
+    background-color: rgb(75, 165, 239);
 }
 
 main{
     background-color: white;
     width: 600px;
-    height: 600px;
+    height: 700px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.463);
 }
 
