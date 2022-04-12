@@ -13,3 +13,11 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.463);
 }
+
+.htmlcss>p>img{
+    width: 80px;
+}
+
+.javas>p>img{
+    width: 80px;
+}
