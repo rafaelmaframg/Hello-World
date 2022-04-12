@@ -2,13 +2,21 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+header{
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.195);
+}
+
 body{
     background-color: rgb(239, 75, 97);
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 600px;
+    height: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.463);
@@ -16,8 +24,10 @@ main{
 
 .htmlcss>p>img{
     width: 80px;
+    float: right;
 }
 
 .javas>p>img{
     width: 80px;
+    float: right;
 }
