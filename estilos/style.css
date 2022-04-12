@@ -3,6 +3,9 @@
     font-size: 16px;
 }
 
+h2{text-align: center;
+margin-top: 30px;}
+
 header{
     font-size: 25px;
     text-align: center;
@@ -16,7 +19,7 @@ body{
 main{
     background-color: white;
     width: 600px;
-    height: 500px;
+    height: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.463);
@@ -29,5 +32,10 @@ main{
 
 .javas>p>img{
     width: 80px;
+    float: right;
+}
+
+article.python>p>img{
+    width: 100px;
     float: right;
 }
