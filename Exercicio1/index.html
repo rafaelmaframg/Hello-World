@@ -9,19 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>Hora do Dia</h1>
+        <a href="..\index.html"><img src=".\media\back.svg" alt="" id="back"></a><h1>Time of day</h1>
     </header>
+    
     <section>
         <div id="msg">
             aqui vai aparecer a mensagem...
         </div>
         <div id="foto">
-            <img src="img1.jpg" alt="" id="imagem"> 
+            <img src=".\media\img1.jpg" alt="" id="imagem"> 
 
         </div>
     </section>
     <footer>
-        <p> Curso em Video</p>
+        <nav><img src=".\media\sun.svg" alt="" onclick="change('dia')"> 
+            <img src=".\media\afternoon.svg" alt="" onclick="change('tarde')"> 
+             <img src=".\media\night.svg" alt="" onclick="change('noite')"></nav>
+        <p> Mafradev</p>
     </footer> 
     <script src="script.js"></script>  
 </body>

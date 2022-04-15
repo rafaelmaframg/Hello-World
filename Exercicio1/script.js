@@ -2,18 +2,43 @@ var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
 var data = new Date()
 var hora = data.getHours() 
-var hora = 18
-msg.innerText = `agora são ${hora} horas`
+var header = document.querySelector('header')
+var footer = document.querySelector('footer')
+msg.innerText = `It's ${hora}:${data.getMinutes()} hrs`
 if (hora >= 0 && hora < 12){
     //bom dia
-    img.src = 'img1.jpg'
-    document.body.style.background = '#9dbceb5c'
+    img.src = './media/img1.jpg'
+    document.body.style.background = '#f5ffbf85'
+    header.style.color = 'gray'
+    footer.style.color = 'gray'
 } else if (hora >= 12 && hora < 18){
     //boa tarde
-    img.src = 'img2.jpg'
+    img.src = './media/img2.jpg'
     window.document.body.style.background = '#eaa570'
 } else {
     //boa noite
-    img.src = 'img3.jpg'
-    document.body.style.background = '#325281e'
+    img.src = "./media/img3.jpg"
+    document.body.style.background = '##325281e0'
+}
+
+function change(img){
+    if(img == 'dia'){
+        var hora = 9
+        img.src = './media/img1.jpg'
+        window.document.body.style.background = '#f5ffbf85'
+        header.style.color = 'gray'
+        footer.style.color = 'gray'
+    }if(img == 'tarde'){
+        var hora = 13
+        img.src = './media/img2.jpg'
+        window.document.body.style.background = '#eaa570'
+        header.style.color = 'white'
+        footer.style.color = 'white'
+    }if(img == 'noite'){
+        var hora = 20
+        img.src = "./media/img3.jpg"
+        window.document.body.style.background = '#325281e0'
+        header.style.color = 'white'
+        footer.style.color = 'white'
+    }
 }
