@@ -9,15 +9,18 @@
     <title>Number Analyzer</title>
 </head>
 <body>
-    <header>Number Analyzer</header>
+    <header><a href="..\index.html"><img src="back.svg" alt="" id="back"></a><h1>Number Analyzer</h1></header>
     <section>
         <div class="grid1">
         <div>Number (Max = 100):</div>
         <div><input type="number" name="entrynumb" id="entrynumb"></div>
         <div><button id="add" onclick="clickadd()">ADD</button></div></div>
         <div><select name="painel" id="painel" multiple></select></div>
-        <div><button id="submit" onclick="finish()">Finish</button></div>
-        <div class="bottom" id="result"></div>
+        <div><button id="submit" onclick="finish()">Finish</button>
+            <button id="refresh" onclick="window.location.reload()">Refresh</button></div>
+        <div class="bottom" id="result">
+            
+        </div>
     </section>
     <footer>MafraDev</footer>
 </body>
