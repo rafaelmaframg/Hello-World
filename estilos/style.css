@@ -7,13 +7,22 @@ h2{
     text-align: center;
 margin-top: 50px;
 }
-
+.htmlcss{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+}
 header{
     font-size: 36px;
     text-align: center;
-    text-transform: uppercase;
-   
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.316);
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
 }
 
 body{
@@ -29,17 +38,13 @@ main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.463);
 }
 
-.htmlcss>p>img{
+.side{
     width: 80px;
-    float: right;
 }
 
-.javas>p>img{
-    width: 80px;
-    float: right;
-}
 
 article.python>p>img{
     width: 100px;
     float: right;
 }
+

@@ -1,3 +1,7 @@
+
+
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
 body{
     background: rgb(107, 213, 252);
 }
@@ -30,9 +34,13 @@ section{
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.grid1>div>input{
+    width: 100px;
+}
 #painel{
-    padding: 10px;
-    min-width: 200px;
+    margin: 40px 30px 0px;
+    padding: 5px;
+    min-width: 300px;
 }
 footer{
     color: white;
@@ -49,4 +57,14 @@ footer{
     animation:animatebottom 0.8s;
 }
 
-@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.button {
+    background-color: #6ed3ff; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+
