@@ -1,0 +1,41 @@
+body{
+    background: rgb(107, 213, 252);
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 70%;
+    min-height: 380px;
+    max-width: 380px;
+    margin: auto;
+    line-height: 40px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#painel{
+    padding: 10px;
+    min-width: 200px;
+}
+footer{
+    color: white;
+    text-align: center;
+    opacity: 80%;
+    padding: 20px;
+}
+
+#result{
+    border-radius: 10px;
+    background: rgba(8, 227, 252, 0.241);
+    box-shadow: 0px 2px 5px rgba(5, 65, 134, 0.568);
+    animation-duration: 10ms;
+}
