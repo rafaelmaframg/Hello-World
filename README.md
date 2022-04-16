@@ -1,6 +1,6 @@
 # Hello, World!
- Repositorio do curso git e gituhub
+ repository of git html css and javascript course practices
 
- Repositório criado durante uma aula ao vivo!
- 
- essa linha eu adicionei diretamente no site! 
+link:
+[https://rafaelmaframg.github.io/Hello-World/](https://rafaelmaframg.github.io/Hello-World/)
+
